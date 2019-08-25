@@ -50,4 +50,7 @@ end
 
 def add_s(array)
   array = ["hand","feet", "knee", "table"]
-  
+  array.each_with_index do |word|
+    word << "s"
+  end
+end
