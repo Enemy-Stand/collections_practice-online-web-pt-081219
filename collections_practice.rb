@@ -43,7 +43,7 @@ def find_a(array)
   end
 end
 
-def sum_array
+def sum_array(array)
   array = [11,4,7,8,9,100,134]
   array.inject(:+)
 end
