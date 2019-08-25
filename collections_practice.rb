@@ -38,5 +38,5 @@ end
 
 def find_a(array)
   array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  array.find_all do |i|
-  
+  array.find_all do |word|
+  if word[0] == 'a'
