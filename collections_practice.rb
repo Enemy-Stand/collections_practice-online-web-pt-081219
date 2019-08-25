@@ -50,7 +50,7 @@ end
 
 def add_s(array)
   array = ["hand","feet", "knee", "table"]
-  array.each_with_index do |word|
+  array.collect do |word|
     if array[1] = word
       word
     else
