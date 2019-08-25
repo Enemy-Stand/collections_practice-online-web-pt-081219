@@ -38,4 +38,8 @@ end
 
 def find_a(array)
   array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  array.start_with?
+  array.find.start_with?("a")
+  
+def sum_array(array)
+
+def add_s(array)
