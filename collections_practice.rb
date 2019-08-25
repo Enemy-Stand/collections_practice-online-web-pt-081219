@@ -51,8 +51,10 @@ end
 def add_s(array)
   array = ["hand","feet", "knee", "table"]
   array.each_with_index do |word|
-    if word != [1]
-      word << "s"
+    if word = [1]
+      word
+    else
+      word << 's'
     end
   end
 end
