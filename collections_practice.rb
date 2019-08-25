@@ -38,7 +38,7 @@ end
 
 def find_a(array)
   array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
-  array.find.start_with? do {
-  array
-end
+  array.find |i|
+  if i[0] == "a"
+    
   
