@@ -41,5 +41,6 @@ def find_a(array)
   array.find.start_with?("a")
   
 def sum_array(array)
+  array = [11,4,7,8,9,100,134]
 
 def add_s(array)
