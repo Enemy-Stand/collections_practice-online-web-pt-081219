@@ -45,7 +45,7 @@ end
 
 def sum_array(array)
   array = [11,4,7,8,9,100,134]
-  array.inject{
+  array.inject{|a,b| a + b}
 end
 
 def add_s(array)
