@@ -44,8 +44,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  array = [11,4,7,8,9,100,134]
-  array.inject(:+)
+  [11,4,7,8,9,100,134].inject(:+)
 end
 
 def add_s(array)
