@@ -48,5 +48,4 @@ def sum_array
   array.inject(:+)
 end
 
-def add_s(array)
-  array = ["hand","feet", "knee", "table"]
+
